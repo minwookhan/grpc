@@ -40,6 +40,6 @@ def run():
             print(f"ID: {p.id}")
             for phone in p.phones:
                 print(f"  - Phone: {phone.number} ({phone.type})")
-
+#
 if __name__ == '__main__':
     run()
